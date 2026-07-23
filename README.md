@@ -10,13 +10,13 @@ The core neural-network operations are implemented manually rather than through 
 
 The model handles the 7 HAM10000 diagnostic classes:
 
-- `akiec`
-- `bcc`
-- `bkl`
-- `df`
-- `mel`
-- `nv`
-- `vasc`
+- `akiec : Actinic Keratoses and Intraepithelial Carcinoma`
+- `bcc : Basal Cell Carcinoma`
+- `bkl : Benign Keratosis-like Lesions`
+- `df : Dermatofibroma`
+- `mel : Melanoma`
+- `nv : Melanocytic Nevi`
+- `vasc : Vascular Lesions`
 
 ## Architecture
 
