@@ -246,16 +246,16 @@ The default random seed is `42`.
 For a complete reproducibility record, document the exact command used for the final experiment here:
 
 ```bash
-# TODO: paste the exact final training command
+python ham10000.py train --data-dir ../HAM10000 --backend cupy
 ```
 
 Also record:
 
-- Python version: `TODO`
-- Operating system: `TODO`
-- CPU/GPU used: `TODO`
-- CuPy/CUDA version if applicable: `TODO`
-- Total training time: `TODO`
+- Python version: `3.12`
+- Operating system: `Win11`
+- GPU used: `NVIDIA 1060Ti`
+- CuPy: `12.8`
+- Total training time: `3h`
 
 ## Dataset citation and license
 
