@@ -208,22 +208,6 @@ Best validation macro-F1 observed in this run:
 
 ![Macro-F1 curve](results/figures/macro_f1_curve.png)
 
-### Confusion matrix
-
-A confusion matrix image is not included yet because it cannot be reconstructed exactly from the supplied aggregate batch-metrics CSV alone.
-
-Add it later as:
-
-```text
-results/figures/confusion_matrix.png
-```
-
-Then add the following line here:
-
-```markdown
-![Confusion matrix](results/figures/confusion_matrix.png)
-```
-
 ## Checkpoints
 
 The training script creates:
@@ -255,15 +239,3 @@ Also record:
 - GPU used: `NVIDIA 1060Ti`
 - CuPy: `12.8`
 - Total training time: `3h`
-
-## Dataset citation and license
-
-Before making the repository public, add the official HAM10000 dataset citation and verify the dataset's redistribution/license terms.
-
-Do not upload the complete image dataset unless its license explicitly allows redistribution.
-
-## License
-
-No software license has been selected automatically.
-
-See `LICENSE_INSTRUCTIONS.md`.
