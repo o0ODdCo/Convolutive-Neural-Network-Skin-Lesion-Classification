@@ -137,8 +137,7 @@ Place the dataset locally, for example:
 ```text
 data/HAM10000/
 ├── HAM10000_metadata.csv
-├── HAM10000_images_part_1/
-└── HAM10000_images_part_2/
+└── HAM10000_images/
 ```
 
 The training code recursively searches for image files and uses `HAM10000_metadata.csv`.
